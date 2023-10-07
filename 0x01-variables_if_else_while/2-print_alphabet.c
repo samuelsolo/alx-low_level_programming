@@ -2,12 +2,17 @@
 #include <stdio.h>
 #include <ctype.h>
 
-/* more headers goes there */
+/* betty style doc for function main goes there 
+ * 
+ * main - does something 
+ * returns alphabet
+ *
+ * */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	char letter = 'a';
+
 	while (letter <= 'z')
 	{
 		putchar(tolower(letter));

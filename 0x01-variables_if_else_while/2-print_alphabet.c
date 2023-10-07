@@ -2,11 +2,8 @@
 #include <stdio.h>
 #include <ctype.h>
 
-/* betty style doc for function main goes there 
- * 
- * main - does something 
+/* main - does something 
  * returns alphabet
- *
  * */
 
 int main(void)

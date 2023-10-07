@@ -4,11 +4,9 @@
 
 /**
  * main - does something
- * 
  * Description: prints alphabet
- * 
  * Return: Always 0 (Success)
- * */
+ */
 
 int main(void)
 {

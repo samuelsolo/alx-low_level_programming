@@ -2,8 +2,12 @@
 #include <stdio.h>
 #include <ctype.h>
 
-/* main - does something 
- * returns alphabet
+/**
+ * main - does something
+ * 
+ * Description: prints alphabet
+ * 
+ * Return: Always 0 (Success)
  * */
 
 int main(void)

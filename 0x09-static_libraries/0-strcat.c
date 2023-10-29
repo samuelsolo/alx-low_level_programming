@@ -9,7 +9,6 @@
 */
 
 char *_strcat(char *dest, const char *src)
-
 {
 	size_t dest_len = strlen(dest);
 	size_t i;
@@ -20,4 +19,4 @@ char *_strcat(char *dest, const char *src)
 	dest[dest_len + i] = '\0';
 
 	return (dest);
-}	
+}

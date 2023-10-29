@@ -1,6 +1,4 @@
 #include "main.h"
-int _isdigit(int c)
-{}#include "main.h"
 
 /**
 * _isdigit - checks if a character is a digit (0-9)
@@ -27,4 +25,5 @@ int _isdigit(int c)
 	default:
 	return (0);
 	}
+
 }

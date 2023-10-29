@@ -9,12 +9,5 @@
 int _isalpha(int c)
 
 {
-	switch (c)
-	{
-	case 'a'...'z':
-	case 'A'...'Z':
-	return (1);
-	default:
-	return (0);
-	}
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }

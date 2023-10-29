@@ -8,11 +8,11 @@
 *
 * Return: Pointer to the resulting string (i.e. dest)
 */
-char *_strncat(char *dest, const char *src, size_t n)
+char *_strncat(char *dest, char *src, int n)
 
 {
-	size_t dest_len = strlen(dest);
-	size_t b;
+	int dest_len = _strlen(dest);
+	int b;
 
 	for (b = 0; b < n && src[b] != '\0'; b++)
 	dest[dest_len + b] = src[b];

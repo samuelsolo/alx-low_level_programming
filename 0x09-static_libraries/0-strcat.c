@@ -8,10 +8,10 @@
 * Return: a pointer to the resulting string
 */
 
-char *_strcat(char *dest, const char *src)
+char *_strcat(char *dest, char *src)
 {
-	size_t dest_len = strlen(dest);
-	size_t i;
+	int dest_len = _strlen(dest);
+	int i;
 
 	for (i = 0; src[i] != '\0'; i++)
 	dest[dest_len + i] = src[i];

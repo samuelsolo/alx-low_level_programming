@@ -9,11 +9,11 @@
 * Return: pointer to dest
 */
 
-char *_memcpy(char *dest, const char *src, size_t n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 
 {
 	char *pdest = dest;
-	const char *psrc = src;
+	char *psrc = src;
 
 	while (n--)
 	*pdest++ = *psrc++;
